@@ -211,7 +211,7 @@ a.scroll.bnr-btn i{
 /* banner */
 
 .banner-w3pvt {
-	background: url(../images/banner.jpg) no-repeat center;
+	background: url(../images/ali.jpg) no-repeat center;
 	background-size: cover;
 	position: relative;
 }
@@ -262,6 +262,7 @@ a.scroll.bnr-btn i{
 	bottom: -70%
 }
 .bnr-w3pvt-txt h2 span{
+    background: ur 
 }
 .bnr-w3pvt-txt h4 {
     text-transform: capitalize;
@@ -549,7 +550,7 @@ p.sub-meta {
 .box9 .icon li a{display:block;width:38px;height:38px;background:#f39c12;font-size:15px;color:#fff;margin-right:5px;transition:all .35s ease 0s;-webkit-transition:all .35s ease 0s}
 .box9 .icon a:hover{background:#fff;color:#f39c12;}
 @media only screen and (max-width:990px){}
-}
+
 p.paragraph {
     color: #888;
     font-size: 16px;
@@ -570,7 +571,7 @@ p.paragraph:after {
 
 /*-- quote --*/
 .quote{
-    background: url(../images/banner.jpg) 0px 0px;
+    background: url(../images/ali.jpg) 0px 0px;
     background-size: cover;
     position: relative;
 }
@@ -910,7 +911,7 @@ a.move-top span{
 }
 @media(max-width:600px) {
 	.quote {
-		background: url(../images/banner.jpg) center;
+		background: url(../images/ali.jpg) center;
 		background-size: cover;
 	}
 }
