@@ -432,7 +432,11 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 		<div class="contact-form">
 			<div class="row">
 				<div class="col-lg-8">
+<<<<<<< HEAD
 					<form name="contactform" id="submit-form" action="">
+=======
+					<form name="contactform" id="submit-form">
+>>>>>>> 9104d1e2efd672e2f4e8fdc95ecf4419f2a0d638
 						<div class="row">
 							<div class="form-group col-md-6 ">
 							  <label>Name</label>
@@ -512,6 +516,24 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	</a>
 </div>
 <!-- move top -->
-
+ <script>
+        $("#submit-form").submit((e)=>{
+            e.preventDefault()
+            $.ajax({
+                url:"https://script.google.com/macros/s/AKfycbxWDDIYklmV_xPgcWFW3AfB6L5FCxMl6OW8VaquLYuHP77Co90wJRjIDiLjVm2ESmnU1A/exec",
+                data:$("#submit-form").serialize(),
+                method:"post",
+                success:function (response){
+                    alert("Form submitted successfully")
+                    window.location.reload()
+                    //window.location.href="https://google.com"
+                },
+                error:function (err){
+                    alert("Something Error")
+    
+                }
+            })
+        })
+    </script>
 </body>
 </html>
